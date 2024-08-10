@@ -18,7 +18,12 @@ const PersonDetails = () => {
         <div className="col-md-8">
           <h2 className="person-name"></h2>
           <p className="person-info">
-            nsdjvsjddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd!
+            ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+            ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+            ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+            ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+            ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+            ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
           </p>
           <button className="btn btn-primary">Read More</button>
         </div>
