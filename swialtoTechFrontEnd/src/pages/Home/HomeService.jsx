@@ -9,7 +9,7 @@ const HomeService = () => {
       <div className="row">
         <div className="col-lg-8 mx-auto">
           <p className="lead">
-          Welcome to our e-commerce platform, dedicated to honoring the life and teachings of Sadguru Shankar Maharaj. We offer a wide range of products that reflect the spiritual legacy and profound wisdom of Sadguru Shankar Maharaj, designed to bring peace, inspiration, and guidance into your life.
+          Hello wolrd sWelcome to our e-commerce platform, dedicated to honoring the life and teachings of Sadguru Shankar Maharaj. We offer a wide range of products that reflect the spiritual legacy and profound wisdom of Sadguru Shankar Maharaj, designed to bring peace, inspiration, and guidance into your life.
 
           Our mission is to provide devotees and spiritual seekers with meaningful items that connect them to the divine presence of Sadguru Shankar Maharaj. From sacred literature and devotional items to exclusive memorabilia, each product is carefully selected to ensure authenticity and spiritual value.
 
