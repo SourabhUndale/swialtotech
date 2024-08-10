@@ -1,0 +1,452 @@
+/* .navbar-toggler {
+    border-color: white;
+  } */
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    
+  }
+
+
+  /* Cart.css */
+/* ProductList.css */
+
+/* Center the container */
+.container {
+    max-width: 1200px;
+  }
+  
+  /* Style for the section header */
+  .text-center {
+    color: #4a4a4a; /* Dark gray color for text */
+  }
+  
+  /* Style for the card */
+  .card {
+    border: none; /* Remove default border */
+    border-radius: 15px; /* Rounded corners */
+    overflow: hidden; /* Ensure image doesn't overflow card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  }
+  
+  /* Hover effect for card */
+  .card:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+  }
+  
+  /* Style for the card image */
+  .card-img-top {
+    height: 200px; /* Fixed height for images */
+    object-fit: cover;
+  }
+  
+  /* Style for the card title */
+  .card-title {
+    font-size: 1.25rem;
+    color: #333; /* Darker text color */
+  }
+  
+  /* Style for the card price */
+  .card-text {
+    font-size: 1rem;
+    color: #007bff; /* Blue color for price */
+    font-weight: bold; /* Bold font weight */
+  }
+  
+  /* Style for the add to cart button */
+  .btn-primary {
+    background-color: #007bff; /* Bootstrap primary color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+
+
+
+  .image-container {
+    overflow: hidden;
+    position: relative;
+    height: 0;
+    padding-bottom: 75%; /* This maintains a 4:3 aspect ratio, adjust if needed */
+  }
+  
+  .image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease; /* Smooth zoom transition */
+  }
+  
+  .image-container img:hover {
+    transform: scale(1.1); /* Zoom effect */
+  }
+  
+  
+
+/* our categories */
+
+/* OurCategories.css */
+
+/* Style for the section header */
+.text-center {
+    color: #4a4a4a; /* Dark gray color for text */
+  }
+  
+  /* Style for the category box */
+  .category-box {
+    background-color: #f8f9fa; /* Light background color */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    height: 200px; /* Fixed height */
+    overflow: hidden; /* Hide overflow for inner zoom effect */
+    position: relative; /* For positioning inner content */
+    transition: border-color 0.3s ease; /* Smooth border transition */
+  }
+  
+  /* Inner content of the category box */
+  .category-content {
+    display: flex; /* Flexbox for centering text */
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+    height: 100%; /* Full height */
+    width: 100%; /* Full width */
+    transition: transform 0.3s ease; /* Smooth zoom effect */
+  }
+  
+  /* Hover effect for category box */
+  .category-box:hover .category-content {
+    transform: scale(1.1); /* Zoom in effect */
+  }
+  
+  /* Style for the category text */
+  .category-text {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333; /* Dark text color */
+  }
+
+  
+
+
+  /* Our Blogs All CSS  */
+
+  /* OurBlogs.css */
+
+/* Style for the section header */
+.text-center {
+    color: #4a4a4a; /* Dark gray color for text */
+  }
+  
+  /* Style for the blog box */
+  .blog-box {
+    background-color: #f8f9fa; /* Light background color */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the box */
+    height: 250px; /* Fixed height */
+    display: flex; /* Flexbox for vertical alignment */
+    flex-direction: column; /* Column direction */
+    justify-content: space-between; /* Space between title, info, and button */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  }
+  
+  /* Style for the blog title */
+  .blog-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333; /* Dark text color */
+    margin-bottom: 10px; /* Space below the title */
+  }
+  
+  /* Style for the blog info */
+  .blog-info {
+    font-size: 1rem;
+    color: #666; /* Medium gray color */
+    margin-bottom: 20px; /* Space below the info */
+  }
+  
+  /* Style for the Read More button */
+  .btn-primary {
+    background-color: #007bff; /* Bootstrap primary color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+
+
+  /* YtVideos.css */
+
+/* Style for the section header */
+.text-center {
+    color: #4a4a4a; /* Dark gray color for text */
+  }
+  
+  /* Style for the video box */
+  .video-box {
+    background-color: #f8f9fa; /* Light background color */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 12px; /* Rounded corners */
+    padding: 15px; /* Padding inside the box */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth background color and transform transition */
+  }
+  
+  /* Hover effect for the video box */
+  .video-box:hover {
+    background-color: #e9ecef; /* Slightly darker background on hover */
+    transform: scale(1.02); /* Slight zoom effect on hover */
+  }
+  
+  /* Style for the video title */
+  .video-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333; /* Dark text color */
+    margin-bottom: 15px; /* Space below the title */
+  }
+  
+  /* Wrapper for the iframe to add rounded corners */
+  .video-wrapper {
+    border-radius: 12px; /* Apply rounded corners */
+    overflow: hidden; /* Hide overflow */
+  }
+  
+  /* Style for the iframe to ensure it fits within the wrapper */
+  .video-iframe {
+    border-radius: 12px; /* Apply rounded corners to the iframe */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+  }
+  
+
+
+
+
+  /* Footer.css */
+
+/* General footer styles */
+.footer {
+    background-color: #343a40; /* Dark background color */
+    padding: 50px 0; /* Padding around the footer */
+    color: white;
+    text-align: left;
+  }
+  
+  .footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    color: #f8f9fa; /* Lighter color on hover */
+    text-decoration: underline;
+  }
+  
+  .footer p {
+    margin: 0; /* No margin on footer paragraphs */
+  }
+  
+  /* Social media icons */
+  .footer i {
+    font-size: 18px;
+  }
+  
+  .footer .text-left {
+    margin-bottom: 0; /* Remove bottom margin on text-left */
+  }
+  
+  .footer .text-right {
+    margin-bottom: 0; /* Remove bottom margin on text-right */
+  }
+  
+  .footer .row {
+    margin-bottom: 30px;
+  }
+  
+  .footer h5 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .footer .col-md-3,
+  .footer .col-md-2 {
+    margin-bottom: 20px;
+  }
+  
+  .allfooter{
+    color: white;
+  }
+  .pg{
+    color: white;
+  }
+
+
+
+
+  .cus-product{
+    margin-top: 7rem;
+  }
+
+  .product-points li {
+    margin-bottom: 10px;
+  }
+  
+  .product-points li:nth-child(4),
+  .product-points li:nth-child(5) {
+    font-style: italic;
+    color: #007bff; /* Bootstrap's primary color */
+  }
+  
+  .container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .carousel img {
+    border-radius: 10px;
+  }
+  
+  input[type="number"] {
+    text-align: center;
+  }
+  
+
+
+
+  .container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  h2, h3, h4 {
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .img-fluid {
+    border-radius: 10px;
+  }
+  
+  img.rounded-circle {
+    border: 2px solid #886AEA;
+  }
+  
+  button.btn-primary {
+    background-color: #65379B;
+    border-color: #65379B;
+  }
+  
+  h4 {
+    color: #65379B;
+  }
+
+
+
+
+
+  .container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  h2 {
+    font-weight: bold;
+    color: #65379B;
+  }
+  
+  h3 {
+    color: #6457C6;
+  }
+  
+  form .form-group label {
+    color: #886AEA;
+  }
+  
+  form .form-control {
+    border-radius: 5px;
+    border-color: #886AEA;
+  }
+  
+  form .form-control:focus {
+    border-color: #65379B;
+    box-shadow: 0 0 0 0.2rem rgba(101, 55, 155, 0.25);
+  }
+  
+  button.btn-primary {
+    background-color: #65379B;
+    border-color: #65379B;
+  }
+  
+  button.btn-secondary {
+    background-color: #886AEA;
+    border-color: #886AEA;
+  }
+  
+  button.btn-primary:hover, 
+  button.btn-secondary:hover {
+    opacity: 0.9;
+  }
+  
+  .fas {
+    color: #65379B;
+  }
+  
+  .row.mb-5 {
+    margin-bottom: 3rem !important;
+  }
+  
+  .row {
+    margin-bottom: 2rem;
+  }
+  
+  
+
+
+  .person-details {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: #f0f0f0; /* Light gray background color */
+    border-radius: 10px;
+  }
+  
+  .person-details .person-photo {
+    width: 100%; /* Full width inside the column */
+    border-radius: 10px; /* Slightly rounded corners for the box */
+    border: 5px solid #6457C6; /* Matching the theme color */
+  }
+  
+  .person-name {
+    color: #65379B;
+    font-weight: bold;
+  }
+  
+  .person-info {
+    color: #333;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .btn-primary {
+    background-color: #886AEA;
+    border-color: #886AEA;
+  }
+  
+  .btn-primary:hover {
+    opacity: 0.9;
+  }
+  
