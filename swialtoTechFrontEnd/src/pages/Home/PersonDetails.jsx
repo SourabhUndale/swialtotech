@@ -17,7 +17,9 @@ const PersonDetails = () => {
         {/* Right Side: Details */}
         <div className="col-md-8">
           <h2 className="person-name"></h2>
-          <p className="person-info">hello world!</p>
+          <p className="person-info">
+            nsdjvsjddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd!
+          </p>
           <button className="btn btn-primary">Read More</button>
         </div>
       </div>
